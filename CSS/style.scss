@@ -1,0 +1,41 @@
+$white: #FFFFFF;
+$black: #000000;
+$lightPurple: #88304E;
+$purple: #522546;
+$darkPurple: #311D3F;
+*{
+    font-family: 'Fira Sans', sans-serif;
+    color: $black;
+    box-sizing: border-box;
+}
+
+header{
+    font-size: 45.78px;
+    line-height: 68.87px;
+    font-weight: bold;
+}
+h1{
+    font-size: 36.62px;
+    line-height: 54.93px;
+    font-weight: bold;
+}
+h2{
+    font-size: 29.3px;
+    line-height: 43.95px;
+    font-weight: bold;
+}
+h3{
+    font-size: 23.44px;
+    line-height: 35.16px;
+    font-weight: bold;
+}
+h4 {
+    font-size: 18.75px;
+    line-height: 28.13px;
+    font-weight: 600;
+  }
+h5{
+    font-size: 15px;
+    line-height: 22.5px;
+    font-weight: 600;
+  }
