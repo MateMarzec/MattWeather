@@ -40,5 +40,69 @@ h5{
     line-height: 22.5px;
     font-weight: 600;
   }
-
+body{
+    height: 100%;
+    width: 100%;
+    background: #311d3f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#311d3f), to(#522546));
+    background: linear-gradient(180deg, #311d3f 0%, #522546 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .parent {
+        position: absolute;
+        width: 75%;
+        height: 85%;
+        background-color: #FFFFFF;
+        overflow: hidden;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        display: grid;
+        grid-template-columns: 0.40fr 2.4fr 0.4fr 0.3fr 0.4fr 2.4fr 0.4fr;
+        grid-template-rows: 0.5fr 0.4fr 2.4fr 0.4fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        nav {
+            grid-area: 1 / 1 / 2 / 8;
+        }
+        .leftBar {
+            
+            height: 95%;
+            width: 95%;
+            
+            grid-area: 2 / 1 / 6 / 4;
+            transform: translate(5%,0%);
+            -webkit-transform: translate(5%,0%);
+            -moz-transform: translate(5%,0%);
+            -ms-transform: translate(5%,0%);
+            -o-transform: translate(5%,0%);
+}
+        .blankSpace {
+            grid-area: 2 / 4 / 6 / 5;
+        }
+        .rightBar {
+            height: 95%;
+            width: 95%;
+            background: #311d3f;
+            background: -webkit-gradient(linear, left top, left bottom, from(#311d3f), to(#522546));
+            background: linear-gradient(0deg, #311d3f 0%, #522546 100%);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            grid-area: 2 / 5 / 6 / 8;
+            border-radius: 20px 0 20px 0;
+            -webkit-border-radius: 20px 0 20px 0;
+            -moz-border-radius: 20px 0 20px 0;
+            -ms-border-radius: 20px 0 20px 0;
+            -o-border-radius: 20px 0 20px 0;
+}
+        }
 }
