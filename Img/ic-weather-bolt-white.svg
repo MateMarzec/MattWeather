@@ -1,0 +1,8 @@
+<svg id="ic-weather-bolt" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_251" data-name="Rectangle 251" width="24" height="24" fill="none"/>
+  <g id="Layer" transform="translate(-0.003 -0.004)">
+    <g id="Vrstva_181" data-name="Vrstva 181">
+      <path id="Path_513" data-name="Path 513" d="M18.31,9.63H13.88l5-6a1.2,1.2,0,0,0-.93-2H11.9a1.18,1.18,0,0,0-1,.59L4.66,12.82a1.2,1.2,0,0,0,1,1.81h2.6l-2.93,6A1.2,1.2,0,0,0,7.2,22.07L19.09,11.73a1.19,1.19,0,0,0-.78-2.1Zm-10,9,2.05-4.21c.39-.8-1.07-1.82-1.07-1.82H7.08l5.28-9h3.88l-5,6a1.2,1.2,0,0,0,.92,2h4.48Z" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
