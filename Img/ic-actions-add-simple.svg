@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ic-actions-add-simple" transform="translate(0 0.416)">
+    <rect id="Rectangle_24" data-name="Rectangle 24" width="24" height="24" transform="translate(0 -0.416)" fill="none"/>
+    <g id="Layer" transform="translate(2.95 3.387)">
+      <path id="Path_62" data-name="Path 62" d="M3,12.029A1.018,1.018,0,0,1,3.9,11H20.1a1.029,1.029,0,0,1,0,2.057H3.9A1.018,1.018,0,0,1,3,12.029Z" transform="translate(-3 -2.771)" fill="#fff"/>
+      <path id="Path_63" data-name="Path 63" d="M12,3a1.011,1.011,0,0,1,1,.926V20.588a1,1,0,1,1-2,0V3.926A1.011,1.011,0,0,1,12,3Z" transform="translate(-3 -3)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

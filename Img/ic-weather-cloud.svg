@@ -1,0 +1,6 @@
+<svg id="ic-weather-cloud" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_252" data-name="Rectangle 252" width="24" height="24" fill="none"/>
+  <g id="Layer" transform="translate(0.038 0.005)">
+    <path id="Path_514" data-name="Path 514" d="M18.12,8.1A6.92,6.92,0,0,0,12,4,6.92,6.92,0,0,0,5.88,8.1a6,6,0,1,0,3.6,11.37,6.26,6.26,0,0,0,5,0A6,6,0,1,0,18.12,8.1ZM17,18a4,4,0,0,1-2-.52l-.49-.28-.49.27a4.23,4.23,0,0,1-4.1,0l-.49-.27L9,17.48A4.012,4.012,0,1,1,6.65,10h.62l.23-.57A5,5,0,0,1,12,6a5,5,0,0,1,4.5,3.39l.23.57h.62A4.024,4.024,0,0,1,17,18Z" fill="#111" fill-rule="evenodd"/>
+  </g>
+</svg>

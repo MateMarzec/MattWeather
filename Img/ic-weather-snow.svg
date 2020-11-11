@@ -1,0 +1,8 @@
+<svg id="ic-weather-snow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_234" data-name="Group 234" transform="translate(-7348 -307)">
+    <rect id="Rectangle_256" data-name="Rectangle 256" width="24" height="24" transform="translate(7348 307)" fill="none"/>
+    <g id="Layer" transform="translate(7348 307)">
+      <path id="Path_520" data-name="Path 520" d="M22,12a1,1,0,0,0-1-1H18.41l2.88-2.88a1,1,0,1,0-1.41-1.41L15.64,11v.05H12.5V8.63a1,1,0,0,0,.55-.27l4.24-4.24a1,1,0,1,0-1.41-1.41L12.5,6.09V3a1,1,0,0,0-2,0V5.16L8.05,2.71A1,1,0,0,0,6.64,4.12L10.5,8v3H8.33v-.05L4.05,6.71A1,1,0,1,0,2.64,8.12L5.51,11H3a1,1,0,0,0,0,2H5.59L2.64,16a1,1,0,1,0,1.41,1.41l4.24-4.24s.05-.08.08-.12H10.5v3.09L6.64,20a1,1,0,1,0,1.41,1.41l2.45-2.45V21a1,1,0,0,0,2,0V18l3.38,3.37A1,1,0,1,0,17.29,20l-4.24-4.24a1,1,0,0,0-.55-.27V13h3.06a.32.32,0,0,0,.08.12l4.24,4.24A1,1,0,1,0,21.29,16l-2.95-3H21A1,1,0,0,0,22,12Z" fill="#111" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

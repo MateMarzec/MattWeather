@@ -1,0 +1,10 @@
+<svg id="ic-weather-wind" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_262" data-name="Rectangle 262" width="24" height="24" fill="none"/>
+  <g id="Layer" transform="translate(0 -0.008)">
+    <g id="Vrstva_182" data-name="Vrstva 182">
+      <path id="Path_532" data-name="Path 532" d="M2.8,9H13.2a.5.5,0,0,0,.13,0,3,3,0,1,0-3.15-2H2.8A.92.92,0,0,0,2,8a.92.92,0,0,0,.8,1ZM13,5a1,1,0,1,1-1,1A1,1,0,0,1,13,5Z" fill="#111" fill-rule="evenodd"/>
+      <path id="Path_533" data-name="Path 533" d="M16,15H5a1,1,0,0,0,0,2h8.18A3,3,0,1,0,16,15Zm0,4a1,1,0,1,1,1-1A1,1,0,0,1,16,19Z" fill="#111" fill-rule="evenodd"/>
+      <path id="Path_534" data-name="Path 534" d="M20,7a3,3,0,0,0-2.82,4H2a1,1,0,0,0,0,2H20a3,3,0,0,0,0-6Zm0,4a1,1,0,1,1,1-1A1,1,0,0,1,20,11Z" fill="#111" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
