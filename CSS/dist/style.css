@@ -199,12 +199,98 @@ body .parent .leftBar #forecastIcon img {
 }
 body .parent .leftBar #forecastDescription {
   grid-area: 3/7/5/9;
+  text-align: left;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .parent .leftBar #forecastDescription h2 {
+  line-height: 30px;
+  color: #311D3F;
+}
+body .parent .leftBar #forecastDescription h4 {
+  color: #88304E;
 }
 body .parent .leftBar #forecastMinMax {
+  height: 70%;
+  padding-left: 5%;
+  padding-right: 5%;
+  transform: translate(0%, 15%);
+  -webkit-transform: translate(0%, 15%);
+  -moz-transform: translate(0%, 15%);
+  -ms-transform: translate(0%, 15%);
+  -o-transform: translate(0%, 15%);
   grid-area: 5/3/7/9;
+  background: #311D3F;
+  background: -webkit-gradient(linear, left top, left bottom, from(#311D3F), to(#522546));
+  background: linear-gradient(270deg, #311D3F 0%, #522546 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .parent .leftBar #forecastMinMax #min {
+  text-align: center;
+}
+body .parent .leftBar #forecastMinMax #min h4 {
+  color: #FFFFFF;
+}
+body .parent .leftBar #forecastMinMax #max {
+  text-align: center;
+}
+body .parent .leftBar #forecastMinMax #max h4 {
+  color: #FFFFFF;
 }
 body .parent .leftBar #forecastNextFive {
+  padding-left: 5%;
+  padding-right: 5%;
   grid-area: 8/1/11/11;
+  border: 5px solid #311D3F;
+  border-radius: 0 20px 0 20px;
+  -webkit-border-radius: 0 20px 0 20px;
+  -moz-border-radius: 0 20px 0 20px;
+  -ms-border-radius: 0 20px 0 20px;
+  -o-border-radius: 0 20px 0 20px;
+  box-shadow: 0px 3px 11px 0px #311d3f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body .parent .leftBar #forecastNextFive .box {
+  height: 80px;
+  width: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#311D3F), to(#522546));
+  background: linear-gradient(0deg, #311D3F 0%, #522546 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 0px 2px 10px 0px #522546;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+body .parent .leftBar #forecastNextFive .box .nextFiveDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .parent .leftBar #forecastNextFive .box .nextFiveDetails h5 {
+  color: #FFFFFF;
+}
+body .parent .leftBar #forecastNextFive .box .nextFiveDetails img {
+  fill: #FFFFFF;
+  color: #FFFFFF;
 }
 body .parent .blankSpace {
   grid-area: 2/4/6/5;

@@ -104,7 +104,7 @@ body{
                 -moz-transform: translate(60%,0%);
                 -ms-transform: translate(60%,0%);
                 -o-transform: translate(60%,0%);
-}
+            }
             #logo{
                 grid-area: 2 / 2 / 3 / 3;
                 background: $darkPurple;
@@ -133,7 +133,7 @@ body{
                 -moz-transform: translate(-6%,0%);
                 -ms-transform: translate(-6%,0%);
                 -o-transform: translate(-6%,0%);
-}
+            }
             #search{
                 grid-area: 2 / 4 / 3 / 5;
             }
@@ -194,12 +194,98 @@ body{
             }
             #forecastDescription{
                 grid-area: 3 / 7 / 5 / 9;
+                text-align: left;
+                line-height: 40px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h2{
+                    line-height: 30px;
+                    color: $darkPurple;
+                }
+                h4{
+                    color: $lightPurple;
+                }
             }
             #forecastMinMax{
+                height: 70%;
+                padding-left: 5%;
+                padding-right: 5%;
+                transform: translate(0%, 15%);
+                -webkit-transform: translate(0%, 15%);
+                -moz-transform: translate(0%, 15%);
+                -ms-transform: translate(0%, 15%);
+                -o-transform: translate(0%, 15%);
                 grid-area: 5 / 3 / 7 / 9;
+                background: $darkPurple;
+                background: -webkit-gradient(linear, left top, left bottom, from($darkPurple), to($purple));
+                background: linear-gradient(270deg, $darkPurple 0%,$purple 100%);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                border-radius: 20px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                -ms-border-radius: 20px;
+                -o-border-radius: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                #min{
+                    text-align: center;
+                    h4{
+                        color: $white;
+                    }
+                }
+                #max{
+                    text-align: center;
+                    h4{
+                        color: $white;
+                    }
+                }
             }
             #forecastNextFive{
+                padding-left: 5%;
+                padding-right: 5%;
                 grid-area: 8 / 1 / 11 / 11;
+                border: 5px solid $darkPurple;
+                border-radius: 0 20px 0 20px;
+                -webkit-border-radius: 0 20px 0 20px;
+                -moz-border-radius: 0 20px 0 20px;
+                -ms-border-radius: 0 20px 0 20px;
+                -o-border-radius: 0 20px 0 20px;
+                box-shadow: 0px 3px 11px 0px rgba(49,29,63,1);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .box{
+                    height: 80px;
+                    width: 50px;
+                    background: -webkit-gradient(linear, left top, left bottom, from($darkPurple), to($purple));
+                    background: linear-gradient(0deg, $darkPurple 0%, $purple 100%);
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    box-shadow: 0px 2px 10px 0px rgba(82,37,70,1);
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                    .nextFiveDetails{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        h5{
+                            color: $white;
+                        }
+                        img{
+                            fill: $white;
+                            color: $white;
+                        }
+                    }
+                }
             }
         }
         .blankSpace {
