@@ -73,36 +73,144 @@ body{
         grid-row-gap: 0px;
         nav {
             grid-area: 1 / 1 / 2 / 8;
+            display: grid;
+            grid-template-columns: 0.3fr 250px 7fr repeat(3, 50px) 0.3fr;
+            grid-template-rows: 0.4fr 50px 0.4fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 0px;
+            .navButton{
+                height: 80%;
+                width: 80%;
+                background-color: $white;
+                box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.16);
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                transform: translate(-10%, 10%);
+                -webkit-transform: translate(-10%, 10%);
+                -moz-transform: translate(-10%, 10%);
+                -ms-transform: translate(-10%, 10%);
+                -o-transform: translate(-10%, 10%);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    color: #311D3F;
+                }
+            }
+            #logo{
+                grid-area: 2 / 2 / 3 / 3;
+                background: $darkPurple;
+                background: -webkit-gradient(linear, left top, left bottom, from($darkPurple), to($purple));
+                background: linear-gradient(0deg, $darkPurple 0%,$purple 100%);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                box-shadow: 0px 3px 20px 0px rgba(82,37,70,1);
+                border-radius: 20px 0 20px 0;
+                -webkit-border-radius: 20px 0 20px 0;
+                -moz-border-radius: 20px 0 20px 0;
+                -ms-border-radius: 20px 0 20px 0;
+                -o-border-radius: 20px 0 20px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    color: $white;
+                    img{
+                        height: 25px;
+                        width: 25px;
+                    }
+                }
+            }
+            #search{
+                grid-area: 2 / 4 / 3 / 5;
+            }
+            #location{
+                grid-area: 2 / 5 / 3 / 6;
+            }
+            #settings{
+                grid-area: 2 / 6 / 3 / 7;
+            }
         }
         .leftBar {
-            
             height: 95%;
             width: 95%;
-            
             grid-area: 2 / 1 / 6 / 4;
             transform: translate(5%,0%);
             -webkit-transform: translate(5%,0%);
             -moz-transform: translate(5%,0%);
             -ms-transform: translate(5%,0%);
             -o-transform: translate(5%,0%);
-}
+        }
         .blankSpace {
             grid-area: 2 / 4 / 6 / 5;
         }
         .rightBar {
             height: 95%;
             width: 95%;
-            background: #311d3f;
-            background: -webkit-gradient(linear, left top, left bottom, from(#311d3f), to(#522546));
-            background: linear-gradient(0deg, #311d3f 0%, #522546 100%);
+            background: $darkPurple;
+            background: -webkit-gradient(linear, left top, left bottom, from($darkPurple), to($purple));
+            background: linear-gradient(0deg, $darkPurple 0%,$purple 100%);
             background-repeat: no-repeat;
             background-attachment: fixed;
+            box-shadow: 0px 3px 20px 0px rgba(82,37,70,1);
             grid-area: 2 / 5 / 6 / 8;
             border-radius: 20px 0 20px 0;
             -webkit-border-radius: 20px 0 20px 0;
             -moz-border-radius: 20px 0 20px 0;
             -ms-border-radius: 20px 0 20px 0;
             -o-border-radius: 20px 0 20px 0;
-}
+            display: grid;
+            grid-template-columns: 0.4fr repeat(3, 1fr) 0.4fr;
+            grid-template-rows: 0.4fr repeat(3, 1fr) 0.4fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            .infoBox{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+                align-items: center;
+                align-content: center;
+                background-color: $white;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                &:nth-child(1){
+                    grid-area: 2 / 2 / 3 / 3;
+                }
+                &:nth-child(2){
+                    grid-area: 2 / 3 / 3 / 4;
+                }
+                &:nth-child(3){
+                    grid-area: 3 / 2 / 4 / 3;
+                }
+                &:nth-child(4){
+                    grid-area: 3 / 3 / 4 / 4;
+                }
+                &:nth-child(5){
+                    grid-area: 3 / 4 / 4 / 5;
+                }
+                &:nth-child(6){
+                    grid-area: 4 / 3 / 5 / 4;
+                }
+                &:nth-child(7){
+                    grid-area: 4 / 4 / 5 / 5;
+                }
+                h4{
+                    align-self: stretch;
+                    margin: auto;
+                    line-height: 20px;
+                    text-align: center;
+                }
+                h3{ align-self: stretch;
+                    margin: auto;
+                }
+            }
         }
+    }
 }

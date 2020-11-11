@@ -87,6 +87,107 @@ body .parent nav {
   -ms-grid-column: 1;
   -ms-grid-column-span: 7;
   grid-area: 1 / 1 / 2 / 8;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.3fr 250px 7fr (50px)[3] 0.3fr;
+      grid-template-columns: 0.3fr 250px 7fr repeat(3, 50px) 0.3fr;
+  -ms-grid-rows: 0.4fr 50px 0.4fr;
+      grid-template-rows: 0.4fr 50px 0.4fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+body .parent nav .navButton {
+  height: 80%;
+  width: 80%;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform: translate(-10%, 10%);
+  -webkit-transform: translate(-10%, 10%);
+  -moz-transform: translate(-10%, 10%);
+  -ms-transform: translate(-10%, 10%);
+  -o-transform: translate(-10%, 10%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .parent nav .navButton img {
+  color: #311D3F;
+}
+
+body .parent nav #logo {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+  background: #311D3F;
+  background: -webkit-gradient(linear, left bottom, left top, from(#311D3F), to(#522546));
+  background: linear-gradient(0deg, #311D3F 0%, #522546 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-box-shadow: 0px 3px 20px 0px #522546;
+          box-shadow: 0px 3px 20px 0px #522546;
+  border-radius: 20px 0 20px 0;
+  -webkit-border-radius: 20px 0 20px 0;
+  -moz-border-radius: 20px 0 20px 0;
+  -ms-border-radius: 20px 0 20px 0;
+  -o-border-radius: 20px 0 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .parent nav #logo h2 {
+  color: #FFFFFF;
+}
+
+body .parent nav #logo h2 img {
+  height: 25px;
+  width: 25px;
+}
+
+body .parent nav #search {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+body .parent nav #location {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 5 / 3 / 6;
+}
+
+body .parent nav #settings {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 6 / 3 / 7;
 }
 
 body .parent .leftBar {
@@ -115,11 +216,13 @@ body .parent .blankSpace {
 body .parent .rightBar {
   height: 95%;
   width: 95%;
-  background: #311d3f;
-  background: -webkit-gradient(linear, left bottom, left top, from(#311d3f), to(#522546));
-  background: linear-gradient(0deg, #311d3f 0%, #522546 100%);
+  background: #311D3F;
+  background: -webkit-gradient(linear, left bottom, left top, from(#311D3F), to(#522546));
+  background: linear-gradient(0deg, #311D3F 0%, #522546 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  -webkit-box-shadow: 0px 3px 20px 0px #522546;
+          box-shadow: 0px 3px 20px 0px #522546;
   -ms-grid-row: 2;
   -ms-grid-row-span: 4;
   -ms-grid-column: 5;
@@ -130,5 +233,111 @@ body .parent .rightBar {
   -moz-border-radius: 20px 0 20px 0;
   -ms-border-radius: 20px 0 20px 0;
   -o-border-radius: 20px 0 20px 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.4fr (1fr)[3] 0.4fr;
+      grid-template-columns: 0.4fr repeat(3, 1fr) 0.4fr;
+  -ms-grid-rows: 0.4fr (1fr)[3] 0.4fr;
+      grid-template-rows: 0.4fr repeat(3, 1fr) 0.4fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+body .parent .rightBar .infoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+body .parent .rightBar .infoBox:nth-child(1) {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+body .parent .rightBar .infoBox:nth-child(2) {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+body .parent .rightBar .infoBox:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+body .parent .rightBar .infoBox:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+body .parent .rightBar .infoBox:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 3 / 4 / 4 / 5;
+}
+
+body .parent .rightBar .infoBox:nth-child(6) {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+body .parent .rightBar .infoBox:nth-child(7) {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+body .parent .rightBar .infoBox h4 {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  margin: auto;
+  line-height: 20px;
+  text-align: center;
+}
+
+body .parent .rightBar .infoBox h3 {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */

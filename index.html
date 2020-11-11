@@ -4,15 +4,36 @@
     <meta charset="utf-8" />
     <title>MattWeather</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css" />
 </head>
 <body>
     <main class="parent">
-        <nav> </nav>
+        <nav>
+            <div id="logo">
+                <h2>MattWeather<img src="img/ic-weather-temperature.png" alt="Logo"></h2>
+            </div>
+            <div id="search" class="navButton">
+                <img src="img/ic-actions-search.png" alt="Search">
+            </div>
+            <div id="location" class="navButton">
+                <img src="img/ic-mobile-gps-on.png" alt="Location">
+            </div>
+            <div id="settings" class="navButton">
+                <img src="img/ic-actions-settings.png" alt="Settings">
+            </div>
+        </nav>
         <div class="leftBar"> </div>
         <div class="blankSpace"> </div>
-        <div class="rightBar"> </div> 
+        <div class="rightBar">
+            <div class="infoBox"><h4>Sunrise</h4><h3>XX:XX</h3></div>
+            <div class="infoBox"><h4>Sunset</h4><h3>XX:XX</h3></div>
+            <div class="infoBox"><h4>Humidity</h4><h3>XX:XX</h3></div>
+            <div class="infoBox"><h4>Visibility</h4><h3>XX:XX</h3></div>
+            <div class="infoBox"><h4>Wind<br>Speed</h4><h3>XX:XX</h3></div>
+            <div class="infoBox"><h4>Pressure</h4><h3>XX:XX</h3></div>
+            <div class="infoBox"><h4>Wind<br>Direction</h4><h3>XX:XX</h3></div>
+        </div>
     </main>
     <script src="JS/api.js"></script>
 </body>
