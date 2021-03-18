@@ -1,5 +1,5 @@
 * {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   color: #000000;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -57,7 +57,7 @@ body .parent {
   position: absolute;
   width: 75%;
   height: 85%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   overflow: hidden;
   top: 50%;
   left: 50%;
@@ -73,8 +73,8 @@ body .parent {
   -o-border-radius: 50px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.40fr 2.4fr 0.4fr 0.3fr 0.4fr 2.4fr 0.4fr;
-      grid-template-columns: 0.40fr 2.4fr 0.4fr 0.3fr 0.4fr 2.4fr 0.4fr;
+  -ms-grid-columns: 0.4fr 2.4fr 0.4fr 0.3fr 0.4fr 2.4fr 0.4fr;
+      grid-template-columns: 0.4fr 2.4fr 0.4fr 0.3fr 0.4fr 2.4fr 0.4fr;
   -ms-grid-rows: 0.5fr 0.4fr 2.4fr 0.4fr;
       grid-template-rows: 0.5fr 0.4fr 2.4fr 0.4fr;
   grid-column-gap: 0px;
@@ -100,7 +100,7 @@ body .parent nav {
 body .parent nav .navButton {
   height: 80%;
   width: 80%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.16);
   border-radius: 10px;
@@ -130,7 +130,7 @@ body .parent nav .navButton {
 }
 
 body .parent nav .navButton img {
-  color: #311D3F;
+  color: #311d3f;
 }
 
 body .parent nav #logo {
@@ -139,9 +139,9 @@ body .parent nav #logo {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
-  background: #311D3F;
-  background: -webkit-gradient(linear, left bottom, left top, from(#311D3F), to(#522546));
-  background: linear-gradient(0deg, #311D3F 0%, #522546 100%);
+  background: #311d3f;
+  background: -webkit-gradient(linear, left bottom, left top, from(#311d3f), to(#522546));
+  background: linear-gradient(0deg, #311d3f 0%, #522546 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-box-shadow: 0px 3px 20px 0px #522546;
@@ -168,7 +168,7 @@ body .parent nav #logo {
 }
 
 body .parent nav #logo h2 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 body .parent nav #logo h2 img {
@@ -232,11 +232,11 @@ body .parent .leftBar #forecastLocation {
 }
 
 body .parent .leftBar #forecastLocation h3 {
-  color: #311D3F;
+  color: #311d3f;
 }
 
 body .parent .leftBar #forecastLocation h4 {
-  color: #88304E;
+  color: #88304e;
 }
 
 body .parent .leftBar #bookmark {
@@ -310,11 +310,11 @@ body .parent .leftBar #forecastDescription {
 
 body .parent .leftBar #forecastDescription h2 {
   line-height: 30px;
-  color: #311D3F;
+  color: #311d3f;
 }
 
 body .parent .leftBar #forecastDescription h4 {
-  color: #88304E;
+  color: #88304e;
 }
 
 body .parent .leftBar #forecastMinMax {
@@ -331,9 +331,9 @@ body .parent .leftBar #forecastMinMax {
   -ms-grid-column: 3;
   -ms-grid-column-span: 6;
   grid-area: 5 / 3 / 7 / 9;
-  background: #311D3F;
-  background: -webkit-gradient(linear, right top, left top, from(#311D3F), to(#522546));
-  background: linear-gradient(270deg, #311D3F 0%, #522546 100%);
+  background: #311d3f;
+  background: -webkit-gradient(linear, right top, left top, from(#311d3f), to(#522546));
+  background: linear-gradient(270deg, #311d3f 0%, #522546 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   border-radius: 20px;
@@ -361,7 +361,7 @@ body .parent .leftBar #forecastMinMax #min {
 }
 
 body .parent .leftBar #forecastMinMax #min h4 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 body .parent .leftBar #forecastMinMax #max {
@@ -369,7 +369,7 @@ body .parent .leftBar #forecastMinMax #max {
 }
 
 body .parent .leftBar #forecastMinMax #max h4 {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 body .parent .leftBar #forecastNextFive {
@@ -380,7 +380,7 @@ body .parent .leftBar #forecastNextFive {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-area: 8 / 1 / 11 / 11;
-  border: 5px solid #311D3F;
+  border: 4px solid #311d3f;
   border-radius: 0 20px 0 20px;
   -webkit-border-radius: 0 20px 0 20px;
   -moz-border-radius: 0 20px 0 20px;
@@ -405,8 +405,8 @@ body .parent .leftBar #forecastNextFive {
 body .parent .leftBar #forecastNextFive .box {
   height: 80px;
   width: 50px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#311D3F), to(#522546));
-  background: linear-gradient(0deg, #311D3F 0%, #522546 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#311d3f), to(#522546));
+  background: linear-gradient(0deg, #311d3f 0%, #522546 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-box-shadow: 0px 2px 10px 0px #522546;
@@ -435,12 +435,7 @@ body .parent .leftBar #forecastNextFive .box .nextFiveDetails {
 }
 
 body .parent .leftBar #forecastNextFive .box .nextFiveDetails h5 {
-  color: #FFFFFF;
-}
-
-body .parent .leftBar #forecastNextFive .box .nextFiveDetails img {
-  fill: #FFFFFF;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 body .parent .blankSpace {
@@ -454,9 +449,9 @@ body .parent .blankSpace {
 body .parent .rightBar {
   height: 95%;
   width: 95%;
-  background: #311D3F;
-  background: -webkit-gradient(linear, left bottom, left top, from(#311D3F), to(#522546));
-  background: linear-gradient(0deg, #311D3F 0%, #522546 100%);
+  background: #311d3f;
+  background: -webkit-gradient(linear, left bottom, left top, from(#311d3f), to(#522546));
+  background: linear-gradient(0deg, #311d3f 0%, #522546 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-box-shadow: 0px 3px 20px 0px #522546;
@@ -499,7 +494,7 @@ body .parent .rightBar .infoBox {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
